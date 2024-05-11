@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Все сущности</h1>
+    <div class="d-flex flex-column">
+        <a asp-controller="Roles" asp-action="Index" class="mb-2">Роли</a>
+        <a asp-controller="Users" asp-action="Index" class="mb-2">Пользователи</a>
+        <a asp-controller="Logs" asp-action="Index" class="mb-2">Логи</a>
+        <a asp-controller="Publishers" asp-action="Index" class="mb-2">Издатели</a>
+        <a asp-controller="Genres" asp-action="Index" class="mb-2">Жанры</a>
+        <a asp-controller="Conditions" asp-action="Index" class="mb-2">Состояния книги</a>
+        <a asp-controller="Authors" asp-action="Index" class="mb-2">Авторы</a>
+        <a asp-controller="Books" asp-action="Index" class="mb-2">Книги</a>
+        <a asp-controller="Bestbooks" asp-action="Index" class="mb-2">Лучшие книги</a>
+        <a asp-controller="Bookinstances" asp-action="Index" class="mb-2">Экземпляры книг</a>
+        <a asp-controller="Bookrentals" asp-action="Index" class="mb-2">Аренда книг</a>
+        <a asp-controller="Bookreviews" asp-action="Index" class="mb-2">Обзоры на книги</a>
+    </div>
+</div>

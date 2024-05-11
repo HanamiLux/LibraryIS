@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LibraryMobile</string>
+    <string name="singUp">Регистрация</string>
+    <string name="login">Логин</string>
+    <string name="repeatPassword">Снова пароль</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="signIn">Авторизация</string>
+    <string name="password">Пароль</string>
+    <string name="goToRegisration">Зарегистрироваться</string>
+    <string name="bookTitle">Название книги</string>
+    <string name="bookAuthor">Автор</string>
+    <string name="bookGenre">Жанр</string>
+    <string name="bookIsAvailable">В наличии:</string>
+    <string name="bookPublishedDate">Дата публикации</string>
+</resources>

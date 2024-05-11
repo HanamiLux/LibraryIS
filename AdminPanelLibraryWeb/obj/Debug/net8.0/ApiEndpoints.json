@@ -1,0 +1,1174 @@
+[
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateAuthor",
+    "RelativePath": "api/LibraryApi/Authors/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "LibraryWebApi.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteAuthor",
+    "RelativePath": "api/LibraryApi/Authors/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAuthor",
+    "RelativePath": "api/LibraryApi/Authors/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllAuthors",
+    "RelativePath": "api/LibraryApi/Authors/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAuthorsByPage",
+    "RelativePath": "api/LibraryApi/Authors/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateAuthor",
+    "RelativePath": "api/LibraryApi/Authors/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "LibraryWebApi.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateBestbook",
+    "RelativePath": "api/LibraryApi/Bestbooks/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bestbook",
+        "Type": "LibraryWebApi.Models.Bestbook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteBestbook",
+    "RelativePath": "api/LibraryApi/Bestbooks/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBestbook",
+    "RelativePath": "api/LibraryApi/Bestbooks/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllBestbooks",
+    "RelativePath": "api/LibraryApi/Bestbooks/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBestbooksByPage",
+    "RelativePath": "api/LibraryApi/Bestbooks/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateBestbook",
+    "RelativePath": "api/LibraryApi/Bestbooks/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bestbook",
+        "Type": "LibraryWebApi.Models.Bestbook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateBookinstance",
+    "RelativePath": "api/LibraryApi/Bookinstances/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookinstance",
+        "Type": "LibraryWebApi.Models.Bookinstance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteBookinstance",
+    "RelativePath": "api/LibraryApi/Bookinstances/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBookinstance",
+    "RelativePath": "api/LibraryApi/Bookinstances/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllBookinstances",
+    "RelativePath": "api/LibraryApi/Bookinstances/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBookinstancesByPage",
+    "RelativePath": "api/LibraryApi/Bookinstances/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateBookinstance",
+    "RelativePath": "api/LibraryApi/Bookinstances/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookinstance",
+        "Type": "LibraryWebApi.Models.Bookinstance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateBookrental",
+    "RelativePath": "api/LibraryApi/Bookrentals/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookrental",
+        "Type": "LibraryWebApi.Models.Bookrental",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteBookrental",
+    "RelativePath": "api/LibraryApi/Bookrentals/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBookrental",
+    "RelativePath": "api/LibraryApi/Bookrentals/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllBookrentals",
+    "RelativePath": "api/LibraryApi/Bookrentals/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBookrentalsByPage",
+    "RelativePath": "api/LibraryApi/Bookrentals/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateBookrental",
+    "RelativePath": "api/LibraryApi/Bookrentals/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookrental",
+        "Type": "LibraryWebApi.Models.Bookrental",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateBookreview",
+    "RelativePath": "api/LibraryApi/Bookreviews/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookreview",
+        "Type": "LibraryWebApi.Models.Bookreview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteBookreview",
+    "RelativePath": "api/LibraryApi/Bookreviews/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBookreview",
+    "RelativePath": "api/LibraryApi/Bookreviews/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllBookreviews",
+    "RelativePath": "api/LibraryApi/Bookreviews/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBookreviewsByPage",
+    "RelativePath": "api/LibraryApi/Bookreviews/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateBookreview",
+    "RelativePath": "api/LibraryApi/Bookreviews/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookreview",
+        "Type": "LibraryWebApi.Models.Bookreview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateBook",
+    "RelativePath": "api/LibraryApi/Books/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "LibraryWebApi.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/LibraryApi/Books/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBook",
+    "RelativePath": "api/LibraryApi/Books/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/LibraryApi/Books/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetBooksByPage",
+    "RelativePath": "api/LibraryApi/Books/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/LibraryApi/Books/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "LibraryWebApi.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateCondition",
+    "RelativePath": "api/LibraryApi/Conditions/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "condition",
+        "Type": "LibraryWebApi.Models.Condition",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteCondition",
+    "RelativePath": "api/LibraryApi/Conditions/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetCondition",
+    "RelativePath": "api/LibraryApi/Conditions/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllConditions",
+    "RelativePath": "api/LibraryApi/Conditions/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetConditionsByPage",
+    "RelativePath": "api/LibraryApi/Conditions/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateCondition",
+    "RelativePath": "api/LibraryApi/Conditions/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "condition",
+        "Type": "LibraryWebApi.Models.Condition",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateGenre",
+    "RelativePath": "api/LibraryApi/Genres/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genre",
+        "Type": "LibraryWebApi.Models.Genre",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteGenre",
+    "RelativePath": "api/LibraryApi/Genres/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetGenre",
+    "RelativePath": "api/LibraryApi/Genres/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllGenres",
+    "RelativePath": "api/LibraryApi/Genres/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetGenresByPage",
+    "RelativePath": "api/LibraryApi/Genres/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateGenre",
+    "RelativePath": "api/LibraryApi/Genres/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genre",
+        "Type": "LibraryWebApi.Models.Genre",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateLog",
+    "RelativePath": "api/LibraryApi/Logs/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "LibraryWebApi.Models.Log",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteLog",
+    "RelativePath": "api/LibraryApi/Logs/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetLog",
+    "RelativePath": "api/LibraryApi/Logs/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllLogs",
+    "RelativePath": "api/LibraryApi/Logs/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetLogsByPage",
+    "RelativePath": "api/LibraryApi/Logs/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateLog",
+    "RelativePath": "api/LibraryApi/Logs/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "LibraryWebApi.Models.Log",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreatePublisher",
+    "RelativePath": "api/LibraryApi/Publishers/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publisher",
+        "Type": "LibraryWebApi.Models.Publisher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeletePublisher",
+    "RelativePath": "api/LibraryApi/Publishers/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetPublisher",
+    "RelativePath": "api/LibraryApi/Publishers/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllPublishers",
+    "RelativePath": "api/LibraryApi/Publishers/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetPublishersByPage",
+    "RelativePath": "api/LibraryApi/Publishers/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdatePublisher",
+    "RelativePath": "api/LibraryApi/Publishers/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publisher",
+        "Type": "LibraryWebApi.Models.Publisher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateRole",
+    "RelativePath": "api/LibraryApi/Roles/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "LibraryWebApi.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/LibraryApi/Roles/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetRole",
+    "RelativePath": "api/LibraryApi/Roles/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/LibraryApi/Roles/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetRolesByPage",
+    "RelativePath": "api/LibraryApi/Roles/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/LibraryApi/Roles/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "LibraryWebApi.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "CreateUser",
+    "RelativePath": "api/LibraryApi/Users/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "LibraryWebApi.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/LibraryApi/Users/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetUser",
+    "RelativePath": "api/LibraryApi/Users/Get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/LibraryApi/Users/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "GetUsersByPage",
+    "RelativePath": "api/LibraryApi/Users/GetByPage/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApi.Controllers.LibraryApiController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/LibraryApi/Users/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "LibraryWebApi.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminPanelLibraryWeb.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "AdminPanelLibraryWeb.Models.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminPanelLibraryWeb.Controllers.LoginController",
+    "Method": "GetPassword",
+    "RelativePath": "api/Login/getpassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:id="@+id/goBackBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/app_name"
+        android:background="@color/transparent"
+        android:src="@drawable/btn_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/orderBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/app_name"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_filter"
+        app:layout_constraintStart_toEndOf="@id/goBackBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="本が нема"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:fontFamily="@font/russo_one"
+        android:textColor="@color/mainHeader"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints="no"
+        android:background="@drawable/input_gradient"
+        android:drawableStart="@drawable/ic_search"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:hint="Mein kampf"
+        android:inputType="text"
+        android:padding="16dp"
+        android:paddingEnd="46dp"
+        android:textColor="@color/epochOnCard"
+        android:textColorHint="@color/hints"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintStart_toEndOf="@id/orderBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/recyclerView"
+        tools:ignore="RtlSymmetry" />
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/goBackBtn"
+    tools:listitem="@layout/book_card"
+    android:orientation="vertical"
+
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+﻿@model LibraryWebApi.Models.Bookinstance
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Bookinstance</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Bookid" class="control-label"></label>
+                <select asp-for="Bookid" class="form-control" asp-items="ViewBag.Bookid"></select>
+                <span asp-validation-for="Bookid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Conditionid" class="control-label"></label>
+                <select asp-for="Conditionid" class="form-control" asp-items="ViewBag.Conditionid"></select>
+                <span asp-validation-for="Conditionid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Acquireddate" class="control-label"></label>
+                <input asp-for="Acquireddate" class="form-control" />
+                <span asp-validation-for="Acquireddate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Isavailable" class="control-label"></label>
+                <input asp-for="Isavailable" class="form-control" />
+                <span asp-validation-for="Isavailable" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

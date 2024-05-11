@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mainHint">#80810000</color>
+    <color name="mainHeader">#FF810000</color>
+    <color name="mainBtn">#FFC50000</color>
+    <color name="selectedHeart">#FFFF005C</color>
+    <color name="hints">#FFF2CACA</color>
+    <color name="epochOnCard">#FFF0F0F0</color>
+    <color name="forEye">#FFFFFBF6</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparentBlack70">#70000000</color>
+    <color name="gradientEnd">#3F0000</color>
+</resources>

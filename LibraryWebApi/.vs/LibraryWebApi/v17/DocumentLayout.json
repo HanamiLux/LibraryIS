@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\LibraryWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC6CE6A-2CAA-4CE5-A492-E460139938B7}|LibraryWebApi.csproj|c:\\users\\user\\desktop\\api \u002B admin \u002B mobile\\librarywebapi\\controllers\\libraryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFC6CE6A-2CAA-4CE5-A492-E460139938B7}|LibraryWebApi.csproj|solutionrelative:controllers\\libraryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC6CE6A-2CAA-4CE5-A492-E460139938B7}|LibraryWebApi.csproj|c:\\users\\user\\desktop\\api \u002B admin \u002B mobile\\librarywebapi\\models\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFC6CE6A-2CAA-4CE5-A492-E460139938B7}|LibraryWebApi.csproj|solutionrelative:models\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E03CBB1-D6FA-4B87-94FE-9B5A4D1DF4EA}|..\\AdminPanelLibraryWeb\\AdminPanelLibraryWeb.csproj|c:\\users\\user\\desktop\\api \u002B admin \u002B mobile\\adminpanellibraryweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E03CBB1-D6FA-4B87-94FE-9B5A4D1DF4EA}|..\\AdminPanelLibraryWeb\\AdminPanelLibraryWeb.csproj|c:\\users\\user\\desktop\\api \u002B admin \u002B mobile\\adminpanellibraryweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryApiController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\LibraryWebApi\\Controllers\\LibraryApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibraryApiController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\LibraryWebApi\\Controllers\\LibraryApiController.cs",
+              "RelativeToolTip": "Controllers\\LibraryApiController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwNIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:18:44.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\LibraryWebApi\\Models\\DbHelper.cs",
+              "RelativeDocumentMoniker": "Models\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\LibraryWebApi\\Models\\DbHelper.cs",
+              "RelativeToolTip": "Models\\DbHelper.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAMwEMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:26:09.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\AdminPanelLibraryWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanelLibraryWeb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\AdminPanelLibraryWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "..\\AdminPanelLibraryWeb\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwCgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:46:22.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\AdminPanelLibraryWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\AdminPanelLibraryWeb\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Api \u002B admin \u002B mobile\\AdminPanelLibraryWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\AdminPanelLibraryWeb\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-10T18:31:16.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
